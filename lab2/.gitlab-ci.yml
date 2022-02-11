@@ -1,0 +1,48 @@
+image: ubuntu:18.04
+
+stages:
+  - compile
+  - test
+  - pages
+
+# Задаём команды, которые будут выполнены до прогона скриптов
+before_script:
+  - apt-get -y update
+
+# Собираем проект
+compile:
+  stage: compile
+  script:
+  # Устанавливаем пакеты
+  - apt-get -y install gcc g++
+  # Собираем
+  - g++ lab2.cpp -o lab2
+  # Сохраняем в артефактах
+  artifacts:
+    paths:
+    - ./lab2
+    expire_in: 10 minutes
+
+# Автотесты
+test:
+  stage: test
+  script:
+  - ./lab2 > test.out
+  - diff test.sample test.out
+
+  # Используем GitLab Pages для публикации Doxygen-документации
+pages:
+  stage: pages
+  script:
+  # Устанавливаем пакеты
+  - apt-get -y install doxygen
+  - apt-get -y install graphviz
+  # Прогоняем Doxygen
+  - doxygen Doxyfile.cfg
+  # Диплоим
+  - mv html/ public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

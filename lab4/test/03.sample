@@ -1,0 +1,29 @@
+[0] Printer N.S.Ivanov 1 300 Rusakovskaya 16 1 2
+[1] Computer M.R.Sidorov 2 500 Bronnaya 8 2 3
+[2] Monitor R.I.Karpov 3 1000 Spirodonovka 12 3 4
+[3] Мышка N.S.Ivanov 4 400 Rusakovskaya 12 123 1
+[4] Компьютер M.R.Sidorov 5 200 Bronnaya 15 12 2
+[5] Ноутбук N.S.Ivanov 6 300 Spirodonovka 46 34 5
+[6] Монитор R.I.Karpov 7 100 Bronnaya 21 64 4
+[7] Дискета M.R.Sidorov 8 200 Rusakovskaya 52 29 2
+[8] Роутер N.S.Ivanov 9 600 Bronnaya 13 18 4
+[9] Розетка R.I.Karpov 10 130 Spirodonovka 21 18 2
+[10] Принтер M.R.Sidorov 11 200 Rusakovskaya 22 82 1
+[11] Ксерокс R.I.Karpov 12 500 Spirodonovka 15 46 4
+[12] Компьютер N.S.Ivanov 13 370 Bronnaya 14 91 1
+[13] Системник M.R.Sidorov 14 540 Rusakovskaya 56 21 2
+[14] Винчестер R.I.Karpov 15 400 Spirodonovka 21 53 6
+[15] Оперативка N.S.Ivanov 16 1000 Bronnaya 51 45 4
+[16] Процессор M.R.Sidorov 17 270 Rusakovskaya 17 32 2
+[17] Видеокарта N.S.Ivanov 18 300 Spirodonovka 13 87 7
+[18] Монитор R.I.Karpov 19 400 Bronnaya 10 15 11
+[19] Наушники R.I.Karpov 20 600 Rusakovskaya 12 11 1
+Количество элементов в коллекции: 20
+Отчет по курьеру R.I.Karpov
+   Товар №7 Монитор Адрес: Улица: Bronnaya Дом: 21 Квартира: 64 Этаж: 4
+   Товар №10 Розетка Адрес: Улица: Spirodonovka Дом: 21 Квартира: 18 Этаж: 2
+   Товар №12 Ксерокс Адрес: Улица: Spirodonovka Дом: 15 Квартира: 46 Этаж: 4
+   Товар №15 Винчестер Адрес: Улица: Spirodonovka Дом: 21 Квартира: 53 Этаж: 6
+   Товар №19 Монитор Адрес: Улица: Bronnaya Дом: 10 Квартира: 15 Этаж: 11
+   Товар №20 Наушники Адрес: Улица: Rusakovskaya Дом: 12 Квартира: 11 Этаж: 1
+Выполнение завершено успешно
